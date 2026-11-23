@@ -48,8 +48,8 @@ Visual_Robustness/
 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/visual-model-robustness.git
-cd visual-model-robustness
+git clone https://github.com/YOUR_USERNAME/PROJECT_NAME.git
+cd PROJECT_NAME
 ```
 
 2. Create a virtual environment
@@ -107,6 +107,3 @@ This project provides a foundation for further experiments involving model fine-
 - Fine-tune models using weather-based image augmentation.
 - Measure detection performance using precision, recall, F1-score, and mAP across different conditions.
 
-## Disclaimer
-
-This is an experimental computer vision project intended for educational and research purposes. It is not designed for real-world safety-critical applications.
