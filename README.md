@@ -37,22 +37,37 @@ Users can upload an image, apply different visual conditions, and compare the mo
 ### 3. Model Robustness Comparison
 ![Model Robustness Comparison](images/Output2.png)
 
+
 ## Project Structure
 
 ```text
 Visual_Robustness/
-├── app.py
-├── cli.py
-├── benchmark.py
-├── train.py
-├── requirements.txt
+│
+├── .devcontainer/
+│
+├── images/
+│   ├── Output.png
+│   ├── Output2.png
+│   └── Sample.png
+│
+├── tests/
+│   └── test_core.py
+│
 ├── visionlab/
 │   ├── __init__.py
 │   └── core.py
-├── tests/
-│   └── test_core.py
-└── README.md
+│
+├── .gitignore
+├── app.py
+├── benchmark.py
+├── cli.py
+├── packages.txt
+├── README.md
+├── requirements.txt
+├── train.py
+└── yolo11n.pt
 ```
+
 
 ## Installation
 
